@@ -1,71 +1,62 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Adote seu Cachorro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<header>
+    <header>
+        <img src="logo.png" alt="logo" width="100">
+        <h1>Adote seu Cachorro</h1>
 
-<h1>Minha Empresa</h1>
+        <nav>
+            <a href="home.html">Home</a>
+        <a href="sobre nós.html">sobre nós</a>
+        <a href="nossos animais.html">animais</a>
+        <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
-<nav>
+    <main>
 
-<a href="home.html">Home</a>
+        <section class="bem-vindo">
+            <h2>Bem-vindo!</h2>
 
-<a href="serviços.html">Serviços</a>
+            <p>
+                Ao adotar um animal de estimação, você estará dando uma chance
+                a um animal que não teve uma primeira chance .
+            </p>
+        </section>
 
-<a href="contato.html">Contato</a>
+        <section class="contato">
 
-</nav>
+            <h2>Entre em Contato</h2>
 
-</header>
+            <form>
 
-<main>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
 
-<section>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
 
-<h2>Bem-vindo</h2>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
 
-<p>Curso de HTML.</p>
+                <button type="submit">Enviar</button>
 
-</section>
+            </form>
 
-<section>
+        </section>
 
-<h2>Contato</h2>
+    </main>
 
-<form>
-<label>Nome:</label><br>
+    <footer>
+        <p>© 2026 SENAI - Adote seu Cachorro</p>
+    </footer>
 
-<input type="text"
-placeholder="Nome"><br>
-
-<label>email:</label><br>
-
-<input type="email"
-placeholder="Email">
-<br>
-<label>mensagem:</label><br>
-<textarea rows="5" cols="40"></textarea>
-
-
-<button>
-Enviar
-</button>
-
-</form>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>© 2026 SENAI</p>
-
-</footer>
-
-</body
+</body>
+</html>
